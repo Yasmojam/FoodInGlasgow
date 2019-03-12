@@ -5,6 +5,38 @@ body {
 }
 
 h1 {
+  padding-top: 10px;
   text-align: center;
   font-family: 'Satisfy', cursive;
 }
+
+.review-grid {
+  width: 1280px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: white;
+  position: relative;
+  text-align: center;
+}
+
+.review {
+  padding: 5px;
+ display: inline-block;
+ position: relative;
+ text-align: center;
+}
+
+img {
+    display: block;
+    transition: opacity 0.25s ease-in-out;
+    -moz-transition: opacity 0.25s ease-in-out;
+    -webkit-transition: opacity 0.25s ease-in-out;
+  }
+
+img:hover {
+        opacity: 0.5;
+        }
+
+      }
