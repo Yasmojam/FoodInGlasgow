@@ -28,6 +28,22 @@ h1 {
   text-align: center;
 }
 
+.card-hover .reveal {
+    display: inline-block;
+    visibility: hidden;
+    opacity: 0;
+    height: 0;
+    padding: 0;
+}
+
+.card-hover:hover .reveal {
+    height: auto;
+    visibility: visible;
+    opacity: 10;
+    transition: opacity 1s ease;
+}
+
+
 #aboutuspic {
   margin: 0 auto;
 }
