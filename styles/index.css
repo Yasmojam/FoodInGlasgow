@@ -23,22 +23,33 @@ h1 {
 
 .review {
   padding: 5px;
- display: inline-block;
- position: relative;
- text-align: center;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+}
+
+#aboutuspic {
+  margin: 0 auto;
+}
+
+#aboutusText{
+  flex-wrap: wrap;
+  margin: 10%;
+  margin-top: 1%;
+  text-align:justify;
+
 }
 
 img {
-    display: block;
-    width: 200px;
-    height: 200px;
-    transition: opacity 0.25s ease-in-out;
-    -moz-transition: opacity 0.25s ease-in-out;
-    -webkit-transition: opacity 0.25s ease-in-out;
-  }
+  display: block;
+  width: 200px;
+  height: 200px;
+  transition: opacity 0.25s ease-in-out;
+  -moz-transition: opacity 0.25s ease-in-out;
+  -webkit-transition: opacity 0.25s ease-in-out;
+}
 
 img:hover {
-        opacity: 0.5;
-        }
-
-      }
+  opacity: 0.5;
+}
+}
