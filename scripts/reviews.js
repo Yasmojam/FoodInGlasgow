@@ -46,9 +46,9 @@ function addModalData(review_info) {
   console.log(review_array[review_info]);
   document.getElementById("mod-header").innerHTML = `<h5 class="modal-title" id="exampleModalLabel"> ${review_array[review_info].name} </h5>`;
   document.getElementById("mod-img").innerHTML = "<img class = \"mod_img\" src =" + review_array[review_info].image + ">";
-  document.getElementById("mod-text").innerHTML = review_array[review_info].reviewtext;
-  document.getElementById("mod-footer").innerHTML = `<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-  <a id="get-dir" href= ${review_array[review_info].location} class="btn btn-secondary" role="button"> Get Directions </a>`
+  document.getElementById("mod-text").innerHTML = "<span>" + review_array[review_info].reviewtext + "</span>";
+  document.getElementById("mod-footer").innerHTML = `<a id="get-dir" href= ${review_array[review_info].location} class="btn btn-secondary" role="button"> Get Directions </a>
+  <button type="button" class="btn btn-secondary" data-dismiss="modal" id = "close-btn">Close</button>`
   //delete modal data on close;
 }
 

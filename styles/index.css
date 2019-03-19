@@ -41,6 +41,14 @@ img.mod_img {
   text-align:justify;
 }
 
+#get-dir {
+  margin-left: auto;
+}
+
+#close-btn {
+  margin-right: auto;
+}
+
 #aboutuspic {
   margin: 0 auto;
 }
