@@ -1,7 +1,8 @@
 var review_array = [{
     "id": 0,
     "name": "Artisan Roast Glasgow",
-    "image": "<a href=\"#exampleModal\" role=\"button\" data-toggle=\"modal\" data-target=\"#exampleModal\"> <img src = \"images\\artisanroastglasgow.jpg\" alt= \"brgr\">",
+    "button": "<a href=\"#exampleModal\" role=\"button\" data-toggle=\"modal\" data-target=\"#exampleModal\">",
+    "image" : "\"images\\artisanroastglasgow.jpg\" alt= \"roast\"",
     "cuisine": "Coffeeshop",
     "rating": 4,
     "vegan": true,
@@ -11,7 +12,8 @@ var review_array = [{
   {
     "id": 1,
     "name": "BRGR",
-    "image": "<a href=\"#exampleModal\" role=\"button\" data-toggle=\"modal\" data-target=\"#exampleModal\"> <img src = \"images\\brgr.jpg\" alt= \"brgr\">",
+    "button": "<a href=\"#exampleModal\" role=\"button\" data-toggle=\"modal\" data-target=\"#exampleModal\">",
+    "image" : "\"images\\brgr.jpg\" alt= \"brgr\"",
     "price": 2,
     "cuisine": "Pizza",
     "rating": 4,
@@ -33,7 +35,7 @@ function addElement() {
     newDiv.addEventListener("click", function() {
       addModalData(review.id)
     });
-    newDiv.innerHTML = review.image;
+    newDiv.innerHTML = review.button + "<img class = \"grid_img\" src =" + review.image + ">";
     document.getElementById("review-grid").appendChild(newDiv);
   });
 }
@@ -43,12 +45,14 @@ function addModalData(review_info) {
   console.log(review_info);
   console.log(review_array[review_info]);
   document.getElementById("mod-header").innerHTML = `<h5 class="modal-title" id="exampleModalLabel"> ${review_array[review_info].name} </h5>`;
-  document.getElementById("mod-bod").innerHTML = review_array[review_info].reviewtext;
-  document.getElementById("mod-footer").innerHTML += `<a id="get-dir" href= ${review_array[review_info].location} class="btn btn-secondary" role="button"> Get Directions </a>`
+  document.getElementById("mod-img").innerHTML = "<img class = \"mod_img\" src =" + review_array[review_info].image + ">";
+  document.getElementById("mod-text").innerHTML = review_array[review_info].reviewtext;
+  document.getElementById("mod-footer").innerHTML = `<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+  <a id="get-dir" href= ${review_array[review_info].location} class="btn btn-secondary" role="button"> Get Directions </a>`
   //delete modal data on close;
 }
 
-
+// "<img src = \"images\\brgr.jpg\" alt= \"brgr\">"
 
 //on click generate modal div
 //on exit delete them
