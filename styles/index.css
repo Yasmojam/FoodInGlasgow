@@ -35,6 +35,10 @@ img.mod_img {
   height: 400px;
 }
 
+.modal-title{
+  margin: auto;
+  text-align: center;
+}
 #mod-text {
   flex-wrap: wrap;
   padding: 30px;
