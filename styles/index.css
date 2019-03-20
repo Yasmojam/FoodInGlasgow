@@ -28,9 +28,15 @@ h1 {
   text-align: center;
 }
 
-#aboutuspic {
-  margin: 0 auto;
+.imagebox {
+    width:500px;
+    text-align:center;
 }
+
+img {
+    margin:5px;
+}
+
 
 #aboutusText{
   flex-wrap: wrap;
