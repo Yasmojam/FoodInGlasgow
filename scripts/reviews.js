@@ -15,7 +15,7 @@ var review_array = [{
     "name": "Asian Gourmet",
     "button": "<a href=\"#exampleModal\" role=\"button\" data-toggle=\"modal\" data-target=\"#exampleModal\">",
     "image": "\"images\\asiangourmet.jpg\" alt= \"asain_g\"",
-    "price": "£££",
+    "price": "££",
     "cuisine": "Chinese",
     "rating": "3/3",
     "vegan": false,
@@ -91,7 +91,7 @@ var review_array = [{
     "cuisine": "British",
     "rating": "3/3",
     "vegan": true,
-    "reviewtext": "A great place vegan food – Serenity Now serves a full menu of plant-based alternatives such as “mushroom bacon” mac and cheese, and banana “milkshakes”. Their prices are higher than an average cafe, but their food quality is indeed excellent. Staff was also very accommodating when we asked to alter some ingredients in our milkshake! Due to the direction the cafe is facing, the booths on the side could get too much direct sunlight, so avoid that if you don’t fancy staring at the sun for the duration of a meal. They also have al patio seating, ideal for the summer.",
+    "reviewtext": "A great place for vegan food – Serenity Now serves a full menu of plant-based alternatives such as “mushroom bacon” mac and cheese, and banana “milkshakes”. Their prices are higher than an average cafe, but their food quality is indeed excellent. Staff was also very accommodating when we asked to alter some ingredients in our milkshake! Due to the direction the cafe is facing, the booths on the side could get too much direct sunlight, so avoid that if you don’t fancy staring at the sun for the duration of a meal. They also have al patio seating, ideal for the summer.",
     "location": "https://www.google.com/maps/dir//Serenity+Now,+380+Great+Western+Rd,+Glasgow+G4+9HT/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x488844321a4a1fc1:0x29d412d400780f42!3e0?ved=2ahUKEwjxjszZ35DhAhW1tHEKHdqnDaEQox0wAHoECAoQDw",
   },
   {
@@ -230,7 +230,7 @@ function showMidP() {
 
   //REFINE VISIBLE 0 2 8
   //document.getElementById("0").style.opacity = "0.2";
-  document.getElementById("1").style.opacity = "0.2";
+  //document.getElementById("1").style.opacity = "0.2";
   //document.getElementById("2").style.opacity = "0.2";
   document.getElementById("3").style.opacity = "0.2";
   document.getElementById("4").style.opacity = "0.2";
@@ -254,7 +254,7 @@ function showExp() {
 
   //REFINE VISIBLE 1 5 6 7
   document.getElementById("0").style.opacity = "0.2";
-  //document.getElementById("1").style.opacity = "0.2";
+  document.getElementById("1").style.opacity = "0.2";
   document.getElementById("2").style.opacity = "0.2";
   document.getElementById("3").style.opacity = "0.2";
   document.getElementById("4").style.opacity = "0.2";
