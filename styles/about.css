@@ -15,16 +15,24 @@ h1 {
   font-family: 'Satisfy', cursive;
 }
 
+.row {
+  align-items: center;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+}
+
 #aboutusText{
   flex-wrap: wrap;
   margin: 10%;
   margin-top: 1%;
   text-align:justify;
+}
 
   /* Three columns side by side */
   .column {
-    float: left;
+    float: center;
     width: 33.3%;
+    margin: 0 auto;
     margin-bottom: 16px;
     padding: 0 8px;
   }
