@@ -1,0 +1,48 @@
+body {
+  background-image: url("images/natural.png");
+}
+body {
+  color: rgb(65, 75, 86);
+  font-family: 'Fira Sans Condensed', sans-serif;
+  margin: 0
+}
+
+h1 {
+  padding-top: 10px;
+  text-align: center;
+  font-family: 'Satisfy', cursive;
+
+  form {
+    width: 400px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+
+form {
+  margin:auto;
+}
+
+  img.rounded {
+
+      padding: 3px; /* Some padding */
+      width: 150px; /* Set a small width */
+      height: 150px;
+  }
+
+  img.rounded:hover {
+      opacity: 0.7;
+      filter: alpha(opacity=50); /* For IE8 and earlier */
+  }
+
+  p{
+   font-size: 25px;
+   padding: 50px;
+  }
+
+  .social {
+  min-height: 100%;
+  padding-top: 450px;
+  text-align: center;
+  }

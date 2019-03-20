@@ -4,6 +4,11 @@ body {
   margin: 0
 }
 
+body {
+  background-image: url("images/natural.png");
+  background-color: #cccccc;
+}
+
 h1 {
   padding-top: 10px;
   text-align: center;
@@ -54,8 +59,13 @@ img.mod_img {
   margin-right: auto;
 }
 
-#aboutuspic {
-  margin: 0 auto;
+.row {
+  flex: 50%;
+  padding: 5px;
+}
+
+.imagebox{
+  border-radius: 50%;
 }
 
 #aboutusText{
