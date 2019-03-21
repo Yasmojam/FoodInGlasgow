@@ -1,13 +1,12 @@
 body {
   color: rgb(65, 75, 86);
   font-family: 'Fira Sans Condensed', sans-serif;
-  margin: 0
-}
-
-body {
-  background-image: url("images/natural.png");
+  margin: 0;
+  /* background-image:url("..\\images\\bg_image.png"); */
   background-color: #cccccc;
 }
+
+
 
 h1 {
   padding-top: 10px;
@@ -15,6 +14,9 @@ h1 {
   font-family: 'Satisfy', cursive;
 }
 
+.container{
+    background-color: white;
+}
 #review-grid {
   width: 1280px;
   align-items: center;
@@ -22,7 +24,6 @@ h1 {
   margin: 0 auto;
   padding-top: 50px;
   padding-bottom: 50px;
-  background-color: white;
   position: relative;
   text-align: center;
 }
@@ -35,10 +36,9 @@ h1 {
 }
 
 img.mod_img {
-  display: block;
+  height: 250px;
+  max-width: 100%;
   margin: auto;
-  width: 400px;
-  height: 400px;
 }
 
 .modal-title{

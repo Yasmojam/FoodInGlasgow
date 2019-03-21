@@ -121,7 +121,7 @@ function addElement() {
     newDiv.addEventListener("click", function() {
       addModalData(review.id)
     });
-    newDiv.innerHTML = review.button + "<img class = \"grid_img\" id =" + review.id + " src =" + review.image + ">";
+    newDiv.innerHTML = review.button + "<img class = \"grid_img img-responsive\" id =" + review.id + " src =" + review.image + ">";
     document.getElementById("review-grid").appendChild(newDiv);
   });
 }
